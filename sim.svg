@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg height='348pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 220.00 348.00' width='220pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 344)'>
+<title>G</title>
+<polygon fill='white' points='-4,4 -4,-344 216,-344 216,4 -4,4' stroke='transparent'/>
+<g class='cluster' id='clust6'>
+<title>cluster_gtkwave</title>
+<polygon fill='none' points='8,-8 8,-276 204,-276 204,-8 8,-8' stroke='black'/>
+</g>
+
+<g class='node' id='node1'>
+<title>d_gtkwave</title>
+<polygon fill='none' points='135.5,-196 64.5,-196 64.5,-160 141.5,-160 141.5,-190 135.5,-196' stroke='dodgerblue'/>
+<polyline fill='none' points='135.5,-196 135.5,-190 ' stroke='dodgerblue'/>
+<polyline fill='none' points='141.5,-190 135.5,-190 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='103' y='-174.3'>gtkwave</text>
+</g>
+
+<g class='node' id='node3'>
+<title>pkg:gtkwave</title>
+<path d='M176.5,-120.73C176.5,-122.53 152.52,-124 123,-124 93.48,-124 69.5,-122.53 69.5,-120.73 69.5,-120.73 69.5,-91.27 69.5,-91.27 69.5,-89.47 93.48,-88 123,-88 152.52,-88 176.5,-89.47 176.5,-91.27 176.5,-91.27 176.5,-120.73 176.5,-120.73' fill='none' stroke='mediumblue'/>
+<path d='M176.5,-120.73C176.5,-118.92 152.52,-117.45 123,-117.45 93.48,-117.45 69.5,-118.92 69.5,-120.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='123' y='-102.3'>pkg:gtkwave</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>d_gtkwave&#45;&gt;pkg:gtkwave</title>
+<path d='M107.94,-159.7C110.17,-151.9 112.85,-142.51 115.33,-133.83' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='118.73,-134.68 118.11,-124.1 112,-132.76 118.73,-134.68' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>build:build</title>
+<path d='M108.5,-336.73C108.5,-338.53 87.66,-340 62,-340 36.34,-340 15.5,-338.53 15.5,-336.73 15.5,-336.73 15.5,-307.27 15.5,-307.27 15.5,-305.47 36.34,-304 62,-304 87.66,-304 108.5,-305.47 108.5,-307.27 108.5,-307.27 108.5,-336.73 108.5,-336.73' fill='none' stroke='black'/>
+<path d='M108.5,-336.73C108.5,-334.92 87.66,-333.45 62,-333.45 36.34,-333.45 15.5,-334.92 15.5,-336.73' fill='none' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-318.3'>build:build</text>
+</g>
+
+<g class='node' id='node5'>
+<title>p_gtkwave_build:build</title>
+<path d='M108.5,-264.73C108.5,-266.53 87.66,-268 62,-268 36.34,-268 15.5,-266.53 15.5,-264.73 15.5,-264.73 15.5,-235.27 15.5,-235.27 15.5,-233.47 36.34,-232 62,-232 87.66,-232 108.5,-233.47 108.5,-235.27 108.5,-235.27 108.5,-264.73 108.5,-264.73' fill='none' stroke='grey'/>
+<path d='M108.5,-264.73C108.5,-262.92 87.66,-261.45 62,-261.45 36.34,-261.45 15.5,-262.92 15.5,-264.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-246.3'>build:build</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>build:build&#45;&gt;p_gtkwave_build:build</title>
+<path d='M62,-303.7C62,-295.98 62,-286.71 62,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='65.5,-278.1 62,-268.1 58.5,-278.1 65.5,-278.1' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>t_pkg:gtkwave</title>
+<polygon fill='none' points='176.5,-52 173.5,-56 152.5,-56 149.5,-52 69.5,-52 69.5,-16 176.5,-16 176.5,-52' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='123' y='-30.3'>gtkwave.pkg</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>pkg:gtkwave&#45;&gt;t_pkg:gtkwave</title>
+<path d='M123,-87.7C123,-79.98 123,-70.71 123,-62.11' fill='none' stroke='black'/>
+<polygon fill='black' points='126.5,-62.1 123,-52.1 119.5,-62.1 126.5,-62.1' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>scratch</title>
+<path d='M195.5,-336.73C195.5,-338.53 180.04,-340 161,-340 141.96,-340 126.5,-338.53 126.5,-336.73 126.5,-336.73 126.5,-307.27 126.5,-307.27 126.5,-305.47 141.96,-304 161,-304 180.04,-304 195.5,-305.47 195.5,-307.27 195.5,-307.27 195.5,-336.73 195.5,-336.73' fill='none' stroke='orange'/>
+<path d='M195.5,-336.73C195.5,-334.92 180.04,-333.45 161,-333.45 141.96,-333.45 126.5,-334.92 126.5,-336.73' fill='none' stroke='orange'/>
+<text fill='orange' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='161' y='-318.3'>scratch</text>
+</g>
+
+<g class='node' id='node6'>
+<title>p_gtkwave_scratch</title>
+<path d='M195.5,-264.73C195.5,-266.53 180.04,-268 161,-268 141.96,-268 126.5,-266.53 126.5,-264.73 126.5,-264.73 126.5,-235.27 126.5,-235.27 126.5,-233.47 141.96,-232 161,-232 180.04,-232 195.5,-233.47 195.5,-235.27 195.5,-235.27 195.5,-264.73 195.5,-264.73' fill='none' stroke='grey'/>
+<path d='M195.5,-264.73C195.5,-262.92 180.04,-261.45 161,-261.45 141.96,-261.45 126.5,-262.92 126.5,-264.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='161' y='-246.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>scratch&#45;&gt;p_gtkwave_scratch</title>
+<path d='M161,-303.7C161,-295.98 161,-286.71 161,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='164.5,-278.1 161,-268.1 157.5,-278.1 164.5,-278.1' stroke='black'/>
+</g>
+
+<g class='edge' id='edge4'>
+<title>p_gtkwave_build:build&#45;&gt;d_gtkwave</title>
+<path d='M72.13,-231.7C76.85,-223.64 82.56,-213.89 87.78,-204.98' fill='none' stroke='black'/>
+<polygon fill='black' points='90.95,-206.5 92.98,-196.1 84.91,-202.96 90.95,-206.5' stroke='black'/>
+</g>
+
+<g class='edge' id='edge6'>
+<title>p_gtkwave_scratch&#45;&gt;d_gtkwave</title>
+<path d='M146.66,-231.7C139.71,-223.3 131.23,-213.07 123.6,-203.86' fill='none' stroke='black'/>
+<polygon fill='black' points='126.25,-201.57 117.17,-196.1 120.86,-206.04 126.25,-201.57' stroke='black'/>
+</g>
+
+<g class='edge' id='edge7'>
+<title>p_gtkwave_scratch&#45;&gt;pkg:gtkwave</title>
+<path d='M160.64,-231.9C159.86,-213.71 157.43,-184.27 150,-160 147.19,-150.82 142.86,-141.31 138.48,-132.93' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='141.47,-131.11 133.6,-124.02 135.33,-134.47 141.47,-131.11' stroke='black'/>
+</g>
+</g>
+</svg>
